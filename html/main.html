@@ -1,0 +1,56 @@
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+  <style>
+  .pos1
+{
+    position: absolute;
+    left: 07%;
+    top: 50%;
+    margin-left: -190px;
+    margin-top: -150px;
+}
+.pos2
+{
+    position: absolute;
+    left: 13%;
+    top: 60%;
+}
+.pos3
+{
+  position: absolute;
+    left: 38%;
+    top: -80%;
+}
+</style>
+</head>
+<body>
+<div class="ui container pos1">
+  <h2 class="ui center aligned icon header pos3">
+  <i class="red circular users icon"></i>
+      Random Team Generator
+</h2>
+  <div class="ui middle aligned center aligned grid">
+<div class="ui raised card">
+<div class="content">
+    <form class="ui form" method="post" action="http://localhost:3000/">
+        <div class="field">
+        <label>Filepath</label>
+        <input type="text" name="filepath" placeholder="Enter json file path" required>
+      </div>
+      <div class="field">
+          <label>Enter team size</label>
+          <input required type="number" name ="tsize" placeholder="team size.." required>
+        </div>
+            <button type="submit" class="ui fluid large inverted red submit animated button"  >
+                <span class="visible content">Generate teams</span>
+                <span class="hidden content">
+                  <i class="users icon"></i></span>
+                </button> 
+        <div class="ui error message"></div>
+      </form>
+</div>
+</div>  
+</div>
+</div>
+</body>

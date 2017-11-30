@@ -1,0 +1,39 @@
+created-1 number of team with size3 and one team with size-2
+---------
+team1
+---------
+--------------
+team member 
+--------------
+name is-hell
+branch is-cse
+favourite language  is-java
+--------------
+team member 
+--------------
+name is-miller
+branch is-cse
+favourite language  is-java
+--------------
+team member 
+--------------
+name is-keee
+branch is-cse
+favourite language  is-java
+---------
+team2
+---------
+--------------
+team member 
+--------------
+name is-king
+branch is-cse
+favourite language  is-java
+--------------
+team member 
+--------------
+name is-anurag
+branch is-cse
+favourite language  is-java
+-------------
+end of teams
